@@ -1,0 +1,26 @@
+{
+  "label": "Bewerbung",
+  "emoji": "",
+
+  "channelName": "bewerbung-{ticketId}",
+
+  "categoryId": "",
+  "staffRoleId": "",
+
+  "maxOpenPerUser": 1,
+
+  "subCategoryDir": "application",
+
+  "requireCloseReason": true,
+
+  "closePermissions": {
+    "everyone": true,
+    "roles": []
+  },
+
+  "message": {
+    "type": "container",
+    "greeting": "Hey {mention}",
+    "body": "Danke für deine Bewerbung!\nBitte fülle das obige Formular so ausführlich wie möglich aus.\nAlle Bewerbungen werden individuell geprüft – wir melden uns so schnell wie möglich bei dir."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "label": "Helper",
+  "description": "Support-Teammitglied",
+  "channelName": "helper-{username}",
+
+  "modal": {
+    "title": "Helper Bewerbung",
+    "fields": [
+      {
+        "id": "age",
+        "label": "Dein Alter",
+        "placeholder": "z.B. 18",
+        "style": "short",
+        "required": true,
+        "minLength": 1,
+        "maxLength": 3
+      },
+      {
+        "id": "experience",
+        "label": "Erfahrung im Support",
+        "placeholder": "Beschreibe deine bisherige Erfahrung...",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      },
+      {
+        "id": "motivation",
+        "label": "Warum möchtest du Helper werden?",
+        "placeholder": "Überzeuge uns!",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      }
+    ]
+  }
+}

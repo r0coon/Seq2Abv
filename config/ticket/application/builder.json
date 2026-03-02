@@ -1,0 +1,44 @@
+{
+  "label": "Builder",
+  "description": "Karten- und Weltenbau",
+  "channelName": "builder-{username}",
+
+  "modal": {
+    "title": "Builder Bewerbung",
+    "fields": [
+      {
+        "id": "age",
+        "label": "Dein Alter",
+        "placeholder": "z.B. 18",
+        "style": "short",
+        "required": false,
+        "minLength": 1,
+        "maxLength": 3
+      },
+      {
+        "id": "style",
+        "label": "Dein Baustil",
+        "placeholder": "z.B. Modern, Medieval, Fantasy...",
+        "style": "short",
+        "required": true,
+        "maxLength": 200
+      },
+      {
+        "id": "portfolio",
+        "label": "Portfolio / Screenshots",
+        "placeholder": "Verlinke deine Builds oder beschreibe sie...",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      },
+      {
+        "id": "motivation",
+        "label": "Warum möchtest du Builder werden?",
+        "placeholder": "Überzeuge uns!",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      }
+    ]
+  }
+}

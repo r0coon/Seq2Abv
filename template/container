@@ -1,0 +1,10 @@
+[
+  {
+    "type": 17,
+    "components": [
+      { "type": 10, "content": "{greeting}" },
+      { "type": 14, "divider": true },
+      { "type": 10, "content": "{body}" }
+    ]
+  }
+]

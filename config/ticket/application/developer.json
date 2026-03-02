@@ -1,0 +1,44 @@
+{
+  "label": "Developer",
+  "description": "Plugin-, Bot- oder Webentwicklung",
+  "channelName": "developer-{username}",
+
+  "modal": {
+    "title": "Developer Bewerbung",
+    "fields": [
+      {
+        "id": "age",
+        "label": "Dein Alter",
+        "placeholder": "z.B. 18",
+        "style": "short",
+        "required": true,
+        "minLength": 1,
+        "maxLength": 3
+      },
+      {
+        "id": "skills",
+        "label": "Programmiersprachen & Technologien",
+        "placeholder": "z.B. Java, TypeScript, Python...",
+        "style": "short",
+        "required": true,
+        "maxLength": 200
+      },
+      {
+        "id": "projects",
+        "label": "Bisherige Projekte / Portfolio",
+        "placeholder": "Beschreibe deine Projekte oder verlinke dein GitHub...",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      },
+      {
+        "id": "motivation",
+        "label": "Warum möchtest du Developer werden?",
+        "placeholder": "Überzeuge uns!",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      }
+    ]
+  }
+}

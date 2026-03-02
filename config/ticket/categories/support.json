@@ -1,0 +1,24 @@
+{
+  "label": "Support",
+  "emoji": "",
+
+  "channelName": "support-{ticketId}",
+
+  "categoryId": "",
+  "staffRoleId": "",
+
+  "maxOpenPerUser": 1,
+
+  "requireCloseReason": true,
+
+  "closePermissions": {
+    "everyone": true,
+    "roles": []
+  },
+
+  "message": {
+    "type": "container",
+    "greeting": "Hey {mention}",
+    "body": "Danke, dass du ein Support-Ticket geöffnet hast!\nBitte beschreibe dein Problem so detailliert wie möglich – ein Teammitglied wird dir in Kürze helfen."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "label": "Highteam",
+  "emoji": "",
+
+  "channelName": "highteam-{ticketId}",
+
+  "categoryId": "1478088575391105085",
+  "staffRoleId": "",
+
+  "maxOpenPerUser": 1,
+
+  "requireCloseReason": true,
+
+  "closePermissions": {
+    "everyone": false,
+    "roles": ["1295372971036381225"]
+  },
+
+  "message": {
+    "type": "container",
+    "greeting": "Hey {mention}",
+    "body": "Du hast das Highteam erreicht.\nDiese Kategorie ist für vertrauliche oder eskalierende Angelegenheiten vorgesehen, die nicht über den normalen Support bearbeitet werden können.\nBitte beschreibe dein Anliegen klar und deutlich – ein Highteam-Mitglied wird sich in Kürze bei dir melden."
+  }
+}

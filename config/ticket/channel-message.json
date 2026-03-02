@@ -1,0 +1,53 @@
+{
+  "messageId": "1478152779108454535",
+  "panel": {
+    "title": "TICKET CENTER",
+    "description": "> Willkommen in unserem **Ticket Center**.\n> Bitte wähle unten die passende Kategorie aus, damit dein Anliegen effizient bearbeitet werden kann.\n> Das Einreichen von Tickets in falschen Kategorien kann die Bearbeitungszeit verzögern oder zur Schließung des Tickets führen.",
+    "image": "assets/media/09893fcd-46ed-4ba9-8845-b769148b51d9.png",
+    "accentColor": 12607536,
+    "sections": [
+      {
+        "label": "Support",
+        "description": "> Nutze diese Kategorie für allgemeine Fragen, kontobezogene Probleme oder technische Schwierigkeiten.\n> Unser Team wird dein Anliegen prüfen und so schnell wie möglich antworten."
+      },
+      {
+        "label": "Bewerbung",
+        "description": "> Nutze diese Kategorie, um dich für offizielle Serverrollen zu bewerben, z. B. Staff, Helper, Builder, Developer oder Partner.\n> Alle Bewerbungen werden individuell geprüft. Die Bearbeitungszeit kann je nach Bewerbungsaufkommen variieren."
+      },
+      {
+        "label": "Highteam",
+        "description": "> Nutze diese Kategorie, um das Highteam direkt bei vertraulichen oder eskalierenden Angelegenheiten zu kontaktieren.\n> Diese Kategorie ist für ernste Anliegen reserviert, die nicht über den normalen Support bearbeitet werden können."
+      }
+    ]
+  },
+  "embed": {
+    "title": "Support Tickets",
+    "description": "Benötigst du Hilfe? Wähle unten eine Kategorie aus und ein Ticket wird für dich geöffnet.",
+    "color": 3447003,
+    "footer": "Bitte öffne pro Anliegen nur ein Ticket."
+  },
+  "dropdown": {
+    "placeholder": "🎫 Wähle eine Kategorie aus...",
+    "customId": "ticket_create_select",
+    "options": [
+      {
+        "label": "Support",
+        "description": "Allgemeine Fragen und technische Hilfe",
+        "emoji": "",
+        "value": "support"
+      },
+      {
+        "label": "Bewerbung",
+        "description": "Bewirb dich für eine Teamrolle",
+        "emoji": "",
+        "value": "bewerben"
+      },
+      {
+        "label": "Highteam",
+        "description": "Highteam direkt kontaktieren",
+        "emoji": "",
+        "value": "highteam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "label": "Media",
+  "description": "Content Creator oder Social Media",
+  "channelName": "media-{ticketId}",
+
+  "modal": {
+    "title": "Media Bewerbung",
+    "fields": [
+      {
+        "id": "age",
+        "label": "Dein Alter",
+        "placeholder": "z.B. 18",
+        "style": "short",
+        "required": true,
+        "minLength": 1,
+        "maxLength": 3
+      },
+      {
+        "id": "platform",
+        "label": "Plattform(en)",
+        "placeholder": "z.B. YouTube, Twitch, TikTok...",
+        "style": "short",
+        "required": true,
+        "maxLength": 200
+      },
+      {
+        "id": "channel",
+        "label": "Kanal / Profil-Link",
+        "placeholder": "https://...",
+        "style": "short",
+        "required": true,
+        "maxLength": 200
+      },
+      {
+        "id": "motivation",
+        "label": "Warum möchtest du Media werden?",
+        "placeholder": "Überzeuge uns!",
+        "style": "paragraph",
+        "required": true,
+        "maxLength": 1000
+      }
+    ]
+  }
+}
